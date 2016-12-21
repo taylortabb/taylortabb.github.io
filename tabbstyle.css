@@ -1,0 +1,52 @@
+/* style sheet!*/
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+a {color:#3D85C6;
+text-decoration:none;}
+a:visited {color:#3D85C6;}
+a:hover {color:cyan;}
+/*@font-face {
+   font-family: DINLight;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: DINBold;
+   src: url(/fonts/DINBold.ttf);*/
+/*}*/
+
+body {
+    background-color: white;
+    width:660px;
+}
+
+h1 {
+	font-family: 'Abel', sans-serif;
+    color: #3D85C6;
+    margin-left: 40px;
+    font-size:36;
+    font-weight: bold;
+}
+
+h2 {
+	font-family: 'Abel', sans-serif;
+    color: black;
+    margin-left: 40px;
+    font-size:16;
+    font-weight: bold;
+}
+
+h3 {
+	font-family: 'Abel', sans-serif;
+    color: black;
+    margin-left: 40px;
+    font-size:16;
+}
+
+h4 {
+    font-family: 'Abel', sans-serif;
+    color: black;
+    margin-left: 40px;
+    font-size:12;
+}
