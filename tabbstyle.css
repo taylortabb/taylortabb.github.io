@@ -18,10 +18,14 @@ a:hover {cursor:url(point6.png), auto;}
    src: url(/fonts/DINBold.ttf);*/
 /*}*/
 
+
+html { 
+    cursor:url(point6.png), auto;
+}
+
 body {
     background-color: white;
     width:660px;
-    cursor:url(point6.png), auto;
 }
 
 h1 {
