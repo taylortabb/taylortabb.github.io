@@ -2,6 +2,7 @@
 <meta name="description" content="A big fan of Calculus." />
 <title>Taylor Tabb</title>
 <link rel="stylesheet" type="text/css" href="tabbstyle.css">
+<link rel="stylesheet" type="text/css" href="movestylealt.css">
 <!-- yeah like i don't like tracking either but i want to know about traffic to my site. sorry, whoever is reading this!
 
 actually while I'm here... watch closely for the removal of this canary: 🐦  -->
@@ -14,50 +15,24 @@ actually while I'm here... watch closely for the removal of this canary: 🐦  -
   ga('create', 'UA-74339615-1', 'auto');
   ga('send', 'pageview');
 
-</script>
-<style>
-.g1 {
-	opacity: 0.6;
-    position: relative;
-    top: 190px;
-    left: 75%;
-    width: 120px;
-    height: 120px;
-    margin:-60px 0 0 -60px;
-    -webkit-animation:spin 25s linear infinite;
-    -moz-animation:spin 25s linear infinite;
-    animation:spin 25s linear infinite;
-}
+</script> 
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable1").draggable();
+  } );
+  $( function() {
+    $( "#draggable2").draggable();
+  } );
+  $( function() {
+    $( "#draggable3").draggable();
+  } );
+  </script>
 
-.g2 {
-	opacity: 0.5;
-    position: relative;
-    top: 150px;
-    left: 79%;
-    width: 120px;
-    height: 120px;
-    margin:-60px 0 0 -60px;
-    -webkit-animation:spin 25s linear infinite;
-    -moz-animation:spin 25s linear infinite;
-    animation:spin 25s linear infinite;
-}
-.g3 {
-	opacity: 0.5;
-    position: relative;
-    top: 105px;
-    left: 58%;
-    width: 120px;
-    height: 120px;
-    margin:-60px 0 0 -60px;
-    -webkit-animation:spin 25s linear infinite;
-    -moz-animation:spin 25s linear infinite;
-    animation:spin 25s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-</style>
 </head>
+<style>
+</style>
 <html>
 <br>
 <body>
@@ -66,12 +41,10 @@ actually while I'm here... watch closely for the removal of this canary: 🐦  -
 <h3>I want to build things that solve problems for people and make life more awesome.<br>Digital fabrication, mechatronics, and anything having to do with spaceships make me really excited.
 <br> </h3></header>
 <h3><a href="projects.html"><strong>Projects</strong></a> &nbsp &nbsp &nbsp &nbsp<a href="/about_me"><strong>About Me</strong></a></h3>
+<img id="draggable1" class="g1" src="gear2.png" alt="">
+
+<img id="draggable2" class="g2" src="gear3.png" alt="">
+
+<img id="draggable3" class="g3" src="gear1.png" alt="">
 </body>
-
-<img class="g1" src="http://www.contrib.andrew.cmu.edu/%7Ettabb/gear1.png" alt="" width="120" height="120">
-
-<img class="g2" src="http://www.contrib.andrew.cmu.edu/%7Ettabb/gear%202.png" width="60" height="60">
-
-<img class="g3" src="http://www.contrib.andrew.cmu.edu/%7Ettabb/gear%203.png" alt="" width="120" height="120">
-
 </html>
