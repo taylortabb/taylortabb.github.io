@@ -26,10 +26,11 @@ html {
 body {
     background-color: white;
     width:660px;
+
 }
 
 h1 {
-	font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
     color: #3D85C6;
     margin-left: 40px;
     font-size:36;
@@ -37,7 +38,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:16;
@@ -45,7 +46,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:16;
@@ -57,3 +58,47 @@ h4 {
     margin-left: 40px;
     font-size:12;
 }
+h5 {
+ /*   z-index:2;*/
+    font-family: 'Ropa Sans', sans-serif;
+    color: black;
+    margin-left: 40px;
+    font-size:10;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 45em;
+    animation: type 5s steps(60, end); 
+}
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+#gears{
+}
+
+#land {
+        opacity: 0.1;
+        line-height: 1;
+        position: absolute;   
+        bottom: 0%;
+        left: 0px;}
+
+/*title {
+        line-height: .75;
+        position: absolute;   
+        bottom: 17.5%;
+        left: 0px;}
+#title2 {
+        line-height: .75;
+        position: absolute;   
+        bottom: 0%;
+        left: 16.5px;}  */      
