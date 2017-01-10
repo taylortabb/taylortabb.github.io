@@ -7,7 +7,7 @@ a {color:#3D85C6;
 text-decoration:none;}
 a:visited {color:#3D85C6;}
 a:hover {color:cyan;}
-a:hover {cursor:url(point6.png), auto;}
+a:hover {cursor:url(media/point6.png), auto;}
 /*@font-face {
    font-family: DINLight;
    src: url(sansation_light.woff);
@@ -85,9 +85,6 @@ p:nth-child(2){
   50%{width: 0;}
   100%{ width: 100; } 
 } 
-
-#gears{
-}
 
 #land {
         opacity: 0.1;
