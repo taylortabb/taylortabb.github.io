@@ -1,6 +1,7 @@
 /* style sheet!*/
-@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
-
+<style>
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+</style> 
 a {color:#3D85C6;
 text-decoration:none;}
 a:visited {color:#3D85C6;}
@@ -29,7 +30,7 @@ body {
 }
 
 h1 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #3D85C6;
     margin-left: 40px;
     font-size:36;
@@ -37,7 +38,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:16;
@@ -45,14 +46,14 @@ h2 {
 }
 
 h3 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:16;
 }
 
 h4 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:12;
