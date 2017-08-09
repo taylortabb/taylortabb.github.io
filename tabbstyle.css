@@ -1,11 +1,11 @@
 /* style sheet!*/
 
-@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 a {color:#3D85C6;
 text-decoration:none;}
 a:visited {color:#3D85C6;}
-a:hover {color:cyan;}
+a:hover {color:blue;}
 a:hover {cursor:url(media/point6.png), auto;}
 /*@font-face {
    font-family: DINLight;
@@ -30,14 +30,14 @@ body {
 }
 
 h1 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #3D85C6;
     margin-left: 40px;
     font-size:36;
 }
 
 h2 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:16;
@@ -45,14 +45,14 @@ h2 {
 }
 
 h3 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:16;
 }
 
 h4 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:12;
