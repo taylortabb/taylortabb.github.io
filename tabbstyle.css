@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700i');
 
 a {color:#3D85C6;
 text-decoration:none;}
@@ -26,36 +27,36 @@ body {
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #3D85C6;
     margin-left: 40px;
     font-size:36;
     font-style:italic;
-    font-weight: 900i;
+    font-weight: 700i;
 }
 
 h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:16;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:16;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 40px;
     font-size:12;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 
