@@ -1,0 +1,112 @@
+<head>
+	<link rel="stylesheet" type="text/css" href=" ../../../style.css">
+	<title> Lab 4 </title>
+</head> 
+<!-- TOP BAR BELOW -->
+<div class="fixed-nav-line"></div>
+<div class="fixed-nav-bar">
+	<div id="headerwrapper">
+		<img class="headerlogo" src="https://www.andrew.cmu.edu/course/24-354/logo.png">
+		<a href="../../../index.html">[Back]</a> 
+	</div>
+</div>
+<!-- TOP BAR ABOVE -->
+
+<body>
+
+<div id="wrapper">
+<br>
+<h1> Lab 4: BJT Switches & Relays </h1>
+<div class="line"></div>
+
+<h3> The purpose of this lab is to demonstrate the use of BJT switch circuits to drive a low resistance (high current) load.  We will perform PWM control of a DC motor using the BJT switch. We will then study the use of a relay to drive even more current at lower speeds.  Ultimately, you will use a photo resistor to control the speed of the motor.
+
+
+			<br><br>
+			Before starting the lab please be sure that you have the software (which you can download <a href="http://www.nscope.org/download/ ">here</a>).<br><br>
+			Part List: <br>
+			(1) BJT Transistor <br>
+			(1) 10 k&#937 Resistor <br>
+			(2) 330 &#937 Resistor <br>
+			(1) Diode <br>
+			(1) DC Motor <br>
+			(1) Relay <br>
+			(2) LED <br>
+			(1) Push Button <br>
+			&nbsp&nbsp&nbsp&nbsp Connecting wires <br> </h3>
+
+
+<h1> Part 1: BJT Switch </h1> 
+<div class="line"></div>
+<h2> Breadboard Setup </h2>
+<h3> Breadboard Setup:  For the initial part of this lab we will simply drive the motor with PWM through a digital pin.  That pin will be connected to a BJT switch circuit, which will control the flow of current through the motor.  For your portion of the mini-lab, you will control the speed of the motor via a photoresistor reading on an analog input.  
+<br><br>
+First, let’s connect a photoresistor.  The photoresistor acts like a light-dependent resistor, so we’ll use a voltage divider to measure the light intensity.  Connect one leg of the photoresistor to 5V and the other to a 10 kΩ resistor to ground.  Measure the voltage at the 10 kΩ resistor into pin A0.  A photo of the completed circuit is shown in Figure 1.
+</h3>
+
+<br>
+
+<img class="imgcenter" src="fig1.png" alt="fig1.png" style="width:65%"">
+<h4> Figure 1: Photo Resistor Circuit</h4>
+
+<h3>
+Now let’s build the BJT switch circuit.  We will use one of the NPN transistors that came with your kit (or I will provide if you don’t have one).  The pin information is given in Figure 2.   Let’s use that information to build the circuit shown in Figure 3.  The diode in this circuit is a “flyback” diode, which protects from voltage spikes due to switching motor inductance. <br><br>
+1] Connect the base (pin 2) of the transistor to PWM pin 3 on the Arduino via a 330 Ω resistor. <br><br>
+2] Connect the emitter (pin 3) of the transistor to ground. <br><br>
+3] Connect the motor between the collector (pin 1) and the Arduino 5V source. <br><br>
+4] Connect the diode in parallel with the motor in the direction shown in Figure 3. <br><br>
+A photo of the completed circuit is shown in Figure 4.
+</h3>
+
+<img class="imgcenter" src="fig2.png" alt="fig2.png" style="width:65%"">
+<h4> Figure 2: Photo Resistor Circuit</h4>
+
+<img class="imgcenter" src="fig3.png" alt="fig3.png" style="width:65%"">
+<h4> Figure 3:BJT Switch Circuit.  You can use a 330 Ω resistor instead of the 570 Ω shown. </h4>
+
+<img class="imgcenter" src="fig4.png" alt="fig4.png" style="width:65%"">
+<h4> Figure 4: BJT Switch Circuit Hardware</h4>
+
+<br>
+
+<h2> Code </h2>
+<h3> The provided code is very similar to that in Mini-Lab 3.  It sends PWM signals of increasing intensity to the motor, then reverses after reaching the maximum of 255.  However, it also helps to characterize the photoresistor sensor.  The values reported to the serial terminal are the minimum and maximum values that are read in the analog pin while the code is running.  As code is running, use your hand to shield the photoresistor from light.  You should see the minimum value change as you do this.  Feel free to disconnect the motor while you characterize the sensor.</h3>
+
+<br>
+
+<h2> Your Turn </h2>
+<h3> You will now control the motor using the reading from the light sensor.  Use the Arduino map function to convert the sensor reading onto the range 0-255.  The map function has the following syntax:  newvalue = map(value, fromLow, fromHigh, toLow, toHigh).  The fromLow and fromHigh values are the minimum and maximum sensor readings you found in the first portion of the lab. </h3>
+
+<h1> Part 2: Relay </h1> 
+<div class="line"></div>
+
+<h3>
+Relays are not nearly as fast as transistor switches, and are more expensive.  However, they can switch much higher currents and the design of a relay switch is independent of the parameters of the switched circuit.  Relays are typically too slow to use with PWM, but are useful for on/off applications, like a garage door opener.  In this portion we will use a pushbutton to control a relay.
+<br><br>
+Figure 5 shows the relay that came with your kit (let me know if you don’t have one).  Energizing the relay flips the switch shown in Figure 5. 
+
+<img class="imgcenter" src="fig5.png" alt="fig5.png" style="width:65%"">
+<h4> Figure 5: Relay Layout.  Two pins are used to activate the solenoid, whereas the others are used to switch the circuit. </h4>
+</h4>
+<h3> 
+Do the following to create your circuit: <br><br>
+1] Connect a standard switch circuit’s output to Pin 2.<br><br>
+2] Connect Pin 3 to ground.  (roles of 2 and 3 can be switched without any change)<br><br>
+3] Connect Pin 1 to the Arduino’s 5 V supply.<br><br>
+4] Connect two different colored LEDs through 330 Ω resistors to ground from Pins 4 & 5.</h3>
+
+<img class="imgcenter" src="fig6.png" alt="fig6.png" style="width:65%"">
+<h4> Figure 6:  Completed relay circuit.  You will likely need to push the relay into the board and hold it there while experimenting.</h4>
+
+<br>
+
+<h2> Your Turn </h2> 
+<h3> You are on your own for this portion. Do the following: <br><br>
+1] Use a BJT switch to control the relay off of an Arduino digital output.  While you might be able to control the relay from the pin directly, this is better form given that the relay current draw can be >20 mA.
+2] Connect the motor to the relay so that it turns on when the relay is energized.
+3] Write code to turn the motor on and off at a rate of 1 Hz. </h3>
+
+<br><br>
+
+</div>
+</body>
