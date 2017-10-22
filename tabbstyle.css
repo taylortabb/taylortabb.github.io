@@ -10,6 +10,31 @@ html {
     cursor:url(media/point6.png), auto;
 }
 
+div.gallery {
+    margin: 15px;
+    float: left;
+    width: 25%;
+}
+
+div.gallery:hover {
+    border: 0px solid grey;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    margin-top:0px;
+
+}
+
+div.desc {
+    padding: 0px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size:16;
+    font-weight: 300;
+}
+
 body {
     background-color: white;
     width: 660px;
