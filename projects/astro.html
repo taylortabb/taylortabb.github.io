@@ -1,20 +1,20 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../tabbstyle.css">
 </head>
-
+<body>
+<div id="wrapper">
 <h4><a href="../index.html">Home</a> | <a href="../projects.html">Projects</a> | <a href="../about_me.html">About Me</a></h4>
 
 <h1>Radio Telescope</h1>
 <h2>
 A radio telescope is an astronomy device used to observe the radio emissions of various celestial bodies; this is known as radio astronomy. A radio telescope can give us interesting and different information from what we see in the visible spectrum (as an optical telescope does) by observing what goes on in the radio spectrum.
-
-<img alt="" src="project_files/ab.jpg" style="height:288px; margin-bottom:10px; margin-top:10px; width:560px" /><br/>
-
+</h2>
+<img class="img2" alt="" src="project_files/ab.jpg" />
+<h2>
 This summer I had the goal of building a simple radio telescope to observe the Hydrogen Line. The Hydrogen line is the name of the specific spectral line created by neutral hydrogen atoms in space as they change energy levels. The electromagnetic radiation emitted to create the spectral line occurs at 1420.405MHz, this region of microwave is resilient enough to the conditions on the way to earth such that they are the most commonly observed spectra in amateur Radio Astronomy.
 <br> <br>
-The hardware required to complete this project included:
-<br>
-<img alt="" src="project_files/ba.jpg" style="float:left; height:199px; margin-bottom:0px; margin-top:5px; width:300px" /><br>
+The hardware required to complete this project included: <br>
+<img alt="" src="project_files/ba.jpg" style="float:left; height:199px; margin-bottom:0px; margin-top:25px; width:300px" /><br>
 &nbsp; &nbsp; &nbsp;&nbsp; &#149; Raspberry Pi 3<br>
 &nbsp; &nbsp; &nbsp;&nbsp; &#149; USB Software Defined Radio<br>
 &nbsp; &nbsp; &nbsp;&nbsp; &#149; Low Noise Amplifier<br>
@@ -29,11 +29,15 @@ In order to actually gather and transform the unprocessed radio data, I primaril
 
 One piece of data gathered from my telescope are spectrograms like the one below of the hydrogen line from several consecutive 30 minute scans between 1420.381MHz and 1420.431MHz.<a href="project_files/astro_trial_1_visualization/index.html">Click here to load an animated version.</a> (once it loads, click a few times in the black window to begin the animation)
 <br>
-<a href="project_files/astro_trial_1_visualization/UTC20160713103704-TabbTele-HydrogenLine1-1420.381M-1420.431M-b4000-t0.5-g10-e30m.png"><img alt="" src="project_files/astro_trial_1_visualization/UTC20160713103704-TabbTele-HydrogenLine1-1420.381M-1420.431M-b4000-t0.5-g10-e30m.png" style="float:left; height:422px; margin-left:10px; margin-right:10px; width:560px" /></a>
 
+<br>
+<a href="project_files/astro_trial_1_visualization/UTC20160713103704-TabbTele-HydrogenLine1-1420.381M-1420.431M-b4000-t0.5-g10-e30m.png"> <img class="img2" alt="" src="project_files/astro_trial_1_visualization/UTC20160713103704-TabbTele-HydrogenLine1-1420.381M-1420.431M-b4000-t0.5-g10-e30m.png" /></a>
+<br>
 However, the most awesome and interesting data plot from the telescope is the one below. It plots signal power around the frequency of the hydrogen line for a given area of the sky as the earth rotated and moved in orbit over a 15 hour period.
-
-<a href="project_files/first-good-session-overview.png"><img alt="" src="project_files/first-good-session-overview.png" style="float:left; height:420px; margin-left:10px; margin-right:10px; width:560px" /></a>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+<br><br>
+<img class="img2" alt="" src="project_files/first-good-session-overview.png" />
+<br>
 While I didn't follow any one guide exactly, I did use many for reference including: <a href="http://www.sbrac.org/files/budget_radio_telescope.pdf"> A 21cm Radio Telescope for the Cost-Conscious</a>, <a href="http://www.mikebrownsplanets.com/2013/06/summer-project-build-radio-telescope-at.html">Summer project: Build a radio telescope at home</a>, <a href="https://www.hackster.io/mariocannistra/radio-astronomy-with-rtl-sdr-raspberrypi-and-amazon-aws-iot-45b617">Radio-astronomy with RTL-SDR, RaspberryPI and Amazon AWS IoT</a>, and <a href="http://https://www.reddit.com/r/RTLSDR/">/r/RTLSDR/</a>.</h2>
+
+</div>
+</body>
