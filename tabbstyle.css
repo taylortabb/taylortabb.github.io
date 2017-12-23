@@ -15,6 +15,12 @@ html {
     cursor:url(media/point6.png), auto;
 }
 
+body {  
+    background-size: 20px 20px;
+    background-image: linear-gradient(to right, #F5F5F5 1px, transparent 1px), linear-gradient(to bottom, #F5F5F5 1px, transparent 1px);
+    background-color: white;
+}
+
 div.cal {
     margin-top: 50%;
     align-content: left;
@@ -49,13 +55,6 @@ div.desc {
     font-weight: 300;
     font-weight: 600;
     text-align: center;
-}
-
-body {
-    background-color: white;
-    background-size: 20px 20px;
-    background-image: linear-gradient(to right, #F5F5F5 1px, transparent 1px), linear-gradient(to bottom, #F5F5F5 1px, transparent 1px);
-    cursor:url(media/point6.png), auto;
 }
 
 #wrapper {
