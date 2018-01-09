@@ -1,5 +1,5 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 
 a:link {color: #14233B; text-decoration: none; }
 a:visited {color: #14233B; text-decoration: none; }
@@ -52,7 +52,6 @@ div.desc {
     font-family: 'Open Sans', sans-serif;
     color: #14233B;
     font-size:14;
-    font-weight: 300;
     font-weight: 600;
     text-align: center;
 }
