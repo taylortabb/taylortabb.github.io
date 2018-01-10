@@ -1,13 +1,19 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 
-a:link {color: #14233B; text-decoration: none; }
-a:visited {color: #14233B; text-decoration: none; }
-a:hover {color: #56C7D6; text-decoration: none; }
-a:active {color: #14233B: none; } 
+a:link, a:visited {
+	color: #14233B; 
+	text-decoration: none; 
+}
+
+a:hover, a:active {
+	color: #56C7D6; 
+	text-decoration: none; 
+}
 
 a {
     text-decoration: none;
+    color: #14233B;
     cursor:url(media/point6.png), auto;
 }
 
