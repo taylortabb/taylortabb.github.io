@@ -23,7 +23,7 @@ html {
 
 body {  
     background-size: 20px 20px;
-    background-image: linear-gradient(to right, #F5F5F5 1px, transparent 1px), linear-gradient(to bottom, #F5F5F5 1px, transparent 1px);
+    background-image: linear-gradient(to right, #F6F6F6 1px, transparent 1px), linear-gradient(to bottom, #F6F6F6 1px, transparent 1px);
     background-color: white;
 }
 
@@ -99,6 +99,8 @@ h1 {
     color: #14233B;
     font-size:36;
     font-weight: 600;
+     text-align: justify;
+    text-justify: inter-word;
 }
 
 h2 {
@@ -106,6 +108,8 @@ h2 {
     color: #14233B;
     font-size:17;
     font-weight: 400;
+     text-align: justify;
+    text-justify: inter-word;
 }
 
 h3 {
@@ -113,7 +117,9 @@ h3 {
     color: #14233B;
     font-size:17;
     font-weight: 300;
-    line-height: 16pt; 
+    line-height: 17pt; 
+     text-align: justify;
+    text-justify: inter-word;
 }
 
 /*top bar*/
@@ -123,6 +129,8 @@ h4 {
     color: #14233B;
     font-size:16;
     font-weight: 600;
-    line-height: 14pt; 
+    line-height: 16pt; 
+     text-align: justify;
+    text-justify: inter-word;
 }
 
