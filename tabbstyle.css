@@ -14,11 +14,11 @@ a:hover, a:active {
 a {
     text-decoration: none;
     color: #14233B;
-    cursor:url(media/point6.png), auto;
+    cursor:url(media/point.png), auto;
 }
 
 html { 
-    cursor:url(media/point6.png), auto;
+    cursor:url(media/point.png), auto;
 }
 
 body {  
