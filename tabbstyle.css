@@ -1,4 +1,5 @@
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+<
+//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 
 a:link, a:visited {
@@ -72,6 +73,12 @@ div.desc {
 }
 
 .img2 {
+display: block;
+margin: auto;
+width: 100%;
+}
+
+.img3 {
 display: block;
 margin: auto;
 width: 100%;
