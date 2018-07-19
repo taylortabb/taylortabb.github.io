@@ -24,25 +24,7 @@ html {
 
   ga('create', 'UA-74339615-1', 'auto');
   ga('send', 'pageview');
-</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-  //smooth scroll to anchors 
-$(document).ready(function(){
-  $("a").on('click', function(event) {
 
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
-   
-        window.location.hash = hash;
-      });
-    } 
-  });
-});
 </script>
 
 <!-- yeah like i don't like tracking either but i want to know about traffic to my site. sorry, whoever is reading this!
@@ -53,7 +35,7 @@ $(document).ready(function(){
         <img src="wave2.svg" width="100%">
       <div id="wrapperin1">
         <h1 id="title">Hi, I'm Taylor.</h1>
-        <h3> I study Mechanical Engineering at <strong>Carnegie Mellon University </strong>. <br> I'm a <a href="#TAbottom" id="TAtop">Teaching Assistant</a> in <strong> The College of Engineering</strong>, <br> a <a href="#RAbottom" id="RAtop">researcher</a> in <strong>The Morphing Matter Lab </strong>, <br>and former Intern at <strong> Mattel </strong> and <strong> Deeplocal.</strong>  
+        <h3> I study Mechanical Engineering at <strong>Carnegie Mellon University </strong>. <br> I'm a <a name="linktotop">Back To Top</a> in <strong> The College of Engineering</strong>, <br> a researcher in <strong>The Morphing Matter Lab </strong>, <br>and former Intern at <strong> Mattel </strong> and <strong> Deeplocal.</strong>  
 <a name="linktotop">Back To Top</a><h3>
           <h4>
 
@@ -61,7 +43,7 @@ $(document).ready(function(){
         </div>
         <div id="wrapperoutpink">
           <div id="wrapperinpink">
-            <a href="#RAtop" id="RAbottom"><h1>MORPHING MATTER</h1></a>
+            <h1>MORPHING MATTER</h1>
             <h3>
               Currently, I'm a researcher in the Morphing Matter Lab, focusing on shape memory  fibers, specifically fully reversible thread actuators, and the fabrication methods for  such fibers at extremely long lengths.
               <br>
@@ -79,7 +61,7 @@ $(document).ready(function(){
       <div id="wrapperoutblue">
         <div id="wrapperinblue">
           <br>
-          <a id="TAbottom"><h1 id="title">TEACHING</h1></a>
+          <h1 id="title">TEACHING</h1>
           <h3>
             At CMU, I've TAd for four semesters, three professors, two courses, and over 150 students. The only thing I love more than learning, is helping empower others with knowlege that I think is cool.
             <br><br>
@@ -92,6 +74,8 @@ $(document).ready(function(){
 
           </div>
         </div>
+
+<a href="#linktotop"></a>
         <div id="wrapperoutpink">
           <div id="wrapperinpink">
             <br>

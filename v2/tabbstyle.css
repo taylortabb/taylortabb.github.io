@@ -77,7 +77,7 @@ div.desc {
     margin-left: 15%;
     padding-right: 20px;
     padding-left: 28px;
-/*    padding-top: 28vh;*/
+    z-index:0;
 }
 
 #wrapperout1 {
