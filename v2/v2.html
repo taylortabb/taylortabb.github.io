@@ -25,24 +25,24 @@ html {
   ga('create', 'UA-74339615-1', 'auto');
   ga('send', 'pageview');
 </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
   //smooth scroll to anchors 
-$(document).ready(function(){
-  $("a").on('click', function(event) {
+  $(document).ready(function(){
+    $("a").on('click', function(event) {
 
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
-   
-        window.location.hash = hash;
-      });
-    } 
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 1000, function(){
+
+          window.location.hash = hash;
+        });
+      } 
+    });
   });
-});
 </script>
 
 <!-- yeah like i don't like tracking either but i want to know about traffic to my site. sorry, whoever is reading this!
@@ -50,7 +50,7 @@ $(document).ready(function(){
   actually while I'm here... watch closely for the removal of this canary: 🐦  -->
   <body>
     <div id="wrapperout1">
-        <img src="wave2.svg" width="100%">
+      <img src="wave2.svg" width="100%">
       <div id="wrapperin1">
         <h1 id="title">Hi, I'm Taylor.</h1>
         <h3> I study Mechanical Engineering at <strong>Carnegie Mellon University </strong>. <br> I'm a <a href="#TAbottom" id="TAtop">Teaching Assistant</a> in <strong> The College of Engineering</strong>, <br> a <a href="#RAbottom" id="RAtop">researcher</a> in <strong>The Morphing Matter Lab </strong>, <br>and former Intern at <strong> Mattel </strong> and <strong> Deeplocal.</strong><h3>
@@ -61,12 +61,12 @@ $(document).ready(function(){
         <div id="wrapperoutpink">
           <img id="TAlogo" src="media/hcii2.png" width="10%"> 
           <div id="wrapperinpink">
-            <a href="#RAtop" id="RAbottom"><h1><br>Morphing Matter @ School of Computer Science </h1></a>
+            <a href="#RAtop" id="RAbottom"><h1><br>Morphing Matter</h1></a>
             <h3>
               The Morphing Matter lab develops materials, tools, and applications of adaptive, dynamic and intelligent morphing matter from nano to macro scales. We turn fictional futures into the present.<br><br>
               Currently I focus on shape memory  fibers, specifically fully reversible thread actuators, and the fabrication methods of such fibers at longer than ever made before lengths. My research interests lie in the fabrication and application of new and interesting methods of actuation. <br><br>
 
-             <style>.vimeo { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .vimeo iframe, .vimeo object, .vimeo embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='vimeo'><iframe src='https://player.vimeo.com/video/265117303' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+              <style>.vimeo { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .vimeo iframe, .vimeo object, .vimeo embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='vimeo'><iframe src='https://player.vimeo.com/video/265117303' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
               <br>
               Earlier this year, our team's work was featured in Lunar Gala, a student run fashion show at Carnegie Mellon. The above video highlights our research.
               <br><br>
@@ -92,34 +92,90 @@ $(document).ready(function(){
 
           </div>
         </div><div id="wrapperoutpink">
-          <img id="TAlogo" src="media/DPLCLMATTEL.png" width="6%"> 
+          <!--           <img id="TAlogo" src="media/DPLCLMATTEL.png" width="6%">  -->
           <div id="wrapperinpink">
             <br>
-            <h1 id="title">Work\Play</h1>
+            <h1 id="title">Projects</h1>
             <h3>
-            Engineering for experiances, engineering for good, user focused engineering- all those words, I love those. The past two summers I've worked at Mattel, Inc. and Deeplocal, Inc. Where I got to put those skills to use. 
-<br><br>
-             At <strong>Deeplocal</strong>, just about everything I did was confidential, except for <a href="http://deeplocal.com/postermaker/">deeplocal.com/postermaker</a>, a totally custom machine built for Google, which I brought on-site to the Cannes Lions in Côte d'Azur, France for activation. 
- <br><br>
-            At <strong>Mattel</strong>, I had the unique oppertunity to act as a project manager for a line of die-cast cars. Work I did ended up on shelves in toystores across the world next to iconic Hotwheels and Matchbox cars.
-<br><br>
+              I like building things. Here are some of my favorite projects right now. Give'm a click to see more.
+              <br><br><br>
+              <div class="gallery">
+                <a href="projects/softrobot.html">
+                  <img src="thumbnails/fing.png" alt="Trolltunga Norway">
+                </a>
+                <div class="desc">Soft Robotics</div>
+              </div>
+
+              <div class="gallery">
+                <a href="projects/chair.html">
+                  <img src="thumbnails/chair.png" alt="Forest">
+                </a>
+                <div class="desc">DFM 48 Hour Chair</div>
+              </div>
+
+              <div class="gallery">
+                <a href="projects/astro.html">
+                  <img src="thumbnails/radio.png" alt="Mountains">
+                </a>
+                <div class="desc">Radio Astronomy</div>
+              </div>
+
+              <div class="gallery">
+                <a href="wool.html">
+                  <img src="thumbnails/shoe.png" alt="Forest">
+                </a>
+                <div class="desc">Wool Slipper</div>
+              </div>
+
+              <div class="gallery">
+                <a href="projects/tinywhale.html">
+                  <img src="thumbnails/tinywhale.jpg" alt="Trolltunga Norway">
+                </a>
+                <div class="desc">Impactathon 2018</div>
+              </div>
+
+              <div class="gallery">
+                <a href="projects/cranecontroller.html">
+                  <img src="thumbnails/cranecontroller.png" alt="Forest">
+                </a>
+                <div class="desc">Servo Controller</div>
+              </div>
+<br>
+Click <a href="projects.html"><strong>here</strong></a> to see a whole lot more.
+              <br><br>
             </h3>
           </div>
         </div>
 
-        <div id="wrapperoutblue">
-          <div id="wrapperinblue">
-            <br>
-            <h1 id="title">More?</h1>
-            <h3>
+      </div><div id="wrapperoutblue">
+        <img id="TAlogo" src="media/DPLCLMATTEL.png" width="6%"> 
+        <div id="wrapperinblue">
+          <br>
+          <h1 id="title">Work\Play</h1>
+          <h3>
+            Engineering for experiances, engineering for good, user focused engineering- all those words, I love those. The past two summers I've worked at Mattel, Inc. and Deeplocal, Inc. Where I got to put those skills to use. 
+            <br><br>
+            At <strong>Deeplocal</strong>, just about everything I did was confidential, except for <a href="http://deeplocal.com/postermaker/">deeplocal.com/postermaker</a>, a totally custom machine built for Google, which I brought on-site to the Cannes Lions in Côte d'Azur, France for activation. 
+            <br><br>
+            At <strong>Mattel</strong>, I had the unique oppertunity to act as a project manager for a line of die-cast cars. Work I did ended up on shelves in toystores across the world next to iconic Hotwheels and Matchbox cars.
+            <br><br>
+          </h3>
+        </div>
+      </div>
+
+      <div id="wrapperoutpink">
+        <div id="wrapperinpink">
+          <br>
+          <h1 id="title">More?</h1>
+          <h3>
             I like building things that make people smile. I like questions; asking them and answering them, and I'm all about how the details come together to make something amazing. 
             <br><br>
             I'm a tourguide, an orientation counselor, and improviser, an avid hiker and backpacker, traveler, photographer, a member of Sigma Phi Epsilon fraternity, and occasionally a triathlete. I'm a person who cares a whole lot about the communities of which I'm a part.
             <br><br>
             This website is meant to serve as a portfolio for the projects I've done. To make it a little more fun, the wrench that you see as the cursor on this site actualy exists, scaled way up, as a physical tool I made here.
             <br><br><br><br>
-            </h3>
-          </div>
+          </h3>
         </div>
-      </body>
-      </html>
+      </div>
+    </body>
+    </html>
