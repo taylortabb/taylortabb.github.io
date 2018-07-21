@@ -4,6 +4,7 @@
 a:link, a:visited {
 	color: white; 
 	text-decoration: none; 
+
 }
 
 a:hover, a:active {
@@ -101,7 +102,7 @@ div.desc {
 #wrapperoutpink {
     width: 100vw;
     background-color: #FF3087;
-    min-height: 100vh;
+/*    min-height: 100vh;*/
 }
 
 #wrapperinblue {
