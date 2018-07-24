@@ -33,6 +33,7 @@ body {
     */ background-color: #12004E;
     /*    FF3087*/
     margin:0;
+    line-height: 2;
 }
 
 div.cal {
@@ -79,11 +80,11 @@ div.desc {
 }
 
 #wrapperin1 {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding-right: 20px;
     padding-left: 28px;
-    z-index:0;
+    margin-top: -10vh;
 }
 
 #wrapperout1 {
@@ -93,23 +94,17 @@ div.desc {
 }
 
 #wrapperin {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding-right: 20px;
     padding-left: 28px;
 }
 
 #wrapperoutpink {
     width: 100vw;
+    padding-top: 8px;
     background-color: #E20057;
     /*    min-height: 100vh;*/
-}
-
-#wrapperinblue {
-    margin-right: 15%;
-    margin-left: 15%;
-    padding-right: 20px;
-    padding-left: 28px;
 }
 
 #wrapperoutblue {
@@ -133,7 +128,7 @@ div.desc {
 
 #fixed-menu {
    position: absolute;
-   top: 0;
+   bottom: 0;
    right: 500px;
 /*   left: 100%;*/
 }
@@ -144,7 +139,7 @@ div.desc {
    left: 0;
    z-index: 9998;
    width: 100%;
-   height: 3px;
+   height: 10px;
    background-color: #56C7D6;
 }
 
@@ -156,8 +151,8 @@ div.desc {
 
 #TAlogo {
   position: absolute;
-  padding-left: 6%;
-  padding-top: 40px;
+  padding-left: 4%;
+  padding-top: 75px;
 }
 
 h1 {
@@ -179,9 +174,9 @@ h2 {
 h3 {
     font-family: 'urw-din', sans-serif;
     color: white;
-    font-size:17;
+    font-size:16;
     font-weight: 300;
-    line-height: 17pt; 
+    line-height: 26px; 
 
 }
 
