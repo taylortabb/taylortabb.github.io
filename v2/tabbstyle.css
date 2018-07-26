@@ -8,8 +8,9 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	color: #56C7D6; 
-	text-decoration: none; 
+	color: #FFDC5F; 
+	text-decoration: none;
+    cursor:grab; 
 }
 
 a {
@@ -29,8 +30,9 @@ html {
 
 body {  
     background-size: 20px 20px;
-    /*background-image: linear-gradient(to right, #F6F6F6 1px, transparent 1px), linear-gradient(to bottom, #F6F6F6 1px, transparent 1px);
-    */ background-color: #12004E;
+    background-image: linear-gradient(to right, #F6F6F6 1px, transparent 1px), linear-gradient(to bottom, #F6F6F6 1px, transparent 1px);
+     
+    background-color: white;
     /*    FF3087*/
     margin:0;
     line-height: 2;
@@ -48,15 +50,25 @@ div.cal {
 
 div.gallery {
     display: table-cell;;
-    width: 24%;
+    width: 20%;
 
 }
 
-div.gallery:hover {
+#galimg:hover{
+    border-color: #FFDC5F;
+}
+div.desc:hover{
+    color: #FFDC5F;
+}
+
+#galimg{
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5px 1.5px 1.5px 1.5px;
 }
 
 div.gallery img {
-    width: 95%;
+    width: 90%;
     height: auto;
     margin-top:-10px;
     align-content: center;
@@ -64,11 +76,15 @@ div.gallery img {
 }
 
 div.desc {
+    width: 90%;
     font-family: 'urw-din', sans-serif;
     color: white;
     font-size:14;
-    font-weight: 600;
-    text-align: center;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.5; 
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 #wrapper {
@@ -90,7 +106,7 @@ div.desc {
 #wrapperout1 {
     width: 100vw;
     background-color: #12004E;
-    height: 95vh;
+    height: 98.75vh;
 }
 
 #wrapperin {
@@ -98,11 +114,12 @@ div.desc {
     margin-left: 10%;
     padding-right: 20px;
     padding-left: 28px;
+    display:inline-block;
+
 }
 
 #wrapperoutpink {
     width: 100vw;
-    padding-top: 8px;
     background-color: #E20057;
     /*    min-height: 100vh;*/
 }
@@ -127,32 +144,32 @@ div.desc {
 }
 
 #fixed-menu {
-   position: absolute;
-   bottom: 0;
-   right: 500px;
-/*   left: 100%;*/
+ position: absolute;
+ bottom: 0;
+ right: 500px;
+ /*   left: 100%;*/
 }
 
 .fixed-nav-line {
-   position: fixed;
-   top: 0;
-   left: 0;
-   z-index: 9998;
-   width: 100%;
-   height: 10px;
-   background-color: #56C7D6;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 9998;
+ width: 100%;
+ height: 10px;
+ background-color: #56C7D6;
 }
 
 .line {
-   width: 100%;
-   height: 3px;
-   background-color: #56C7D6;
+ width: 100%;
+ height: 3px;
+ background-color: #56C7D6;
 }
 
 #TAlogo {
   position: absolute;
   padding-left: 4%;
-  padding-top: 75px;
+  padding-top: 37.5px;
 }
 
 h1 {
