@@ -29,10 +29,10 @@ html {
 }
 
 body {  
-    background-size: 20px 20px;
+    /*background-size: 20px 20px;
     background-image: linear-gradient(to right, #F6F6F6 1px, transparent 1px), linear-gradient(to bottom, #F6F6F6 1px, transparent 1px);
-     
-    background-color: white;
+     */
+    background-color: #12004E;
     /*    FF3087*/
     margin:0;
     line-height: 2;
@@ -88,11 +88,10 @@ div.desc {
 }
 
 #wrapper {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding-right: 20px;
     padding-left: 28px;
-    padding-top: 2vh;
 }
 
 #wrapperin1 {
@@ -116,6 +115,20 @@ div.desc {
     padding-left: 28px;
     display:inline-block;
 
+}
+
+#calwrapperin {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-right: 20px;
+    padding-left: 28px;
+
+}
+
+#wrapperoutpink {
+    width: 100vw;
+    background-color: #E20057;
+    /*    min-height: 100vh;*/
 }
 
 #wrapperoutpink {
@@ -206,5 +219,16 @@ h4 {
     font-weight: 600;
     line-height: 16pt; 
 
+}
+
+h5 {
+    font-family: 'urw-din', sans-serif;
+    color: white;
+    font-size:7;
+    font-weight: 300;
+    position: absolute;
+    padding-left: 93%;
+    padding-top: 20px;
+}
 }
 
