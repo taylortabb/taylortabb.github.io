@@ -230,5 +230,11 @@ h5 {
     padding-left: 93%;
     padding-top: 20px;
 }
+
+h6 {
+    font-family: 'urw-din', sans-serif;
+    color: white;
+    font-size:7;
+    font-weight: 300;
 }
 
