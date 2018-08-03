@@ -104,7 +104,7 @@ div.desc {
 
 #wrapperout1 {
     width: 100vw;
-    background-color: #00154E;
+    background-color: #00064E;
     height: 98.75vh;
 }
 
@@ -131,15 +131,9 @@ div.desc {
     /*    min-height: 100vh;*/
 }
 
-#wrapperoutpink {
-    width: 100vw;
-    background-color: #E20057;
-    /*    min-height: 100vh;*/
-}
-
 #wrapperoutblue {
     width: 100vw;
-    background-color: #00154E;
+    background-color: #00064E;
     /* min-height: 100vh;*/
 }
 
