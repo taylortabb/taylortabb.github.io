@@ -81,7 +81,7 @@ div.desc {
     font-family: 'urw-din', sans-serif;
     color: white;
     font-size:14;
-    font-weight: 300;
+    font-weight: 500;
     text-align: left;
     line-height: 1.5; 
     margin-left: 1px;
@@ -128,7 +128,7 @@ div.desc {
 
 #wrapperoutpink {
     width: 100vw;
-    background-color: #E20057;
+    background-color: #d81549;
     /*    min-height: 100vh;*/
 }
 
@@ -183,7 +183,7 @@ div.desc {
 h1 {
     font-family: 'urw-din', sans-serif;
     color: white;
-    font-size:36;
+    font-size:40;
     font-weight: 600;
 
 }
@@ -191,7 +191,7 @@ h1 {
 h2 {
     font-family: 'urw-din', sans-serif;
     color: white;
-    font-size:17;
+    font-size:18;
     font-weight: 500;
 
 }
@@ -199,8 +199,8 @@ h2 {
 h3 {
     font-family: 'urw-din', sans-serif;
     color: white;
-    font-size:16;
-    font-weight: 300;
+    font-size:18;
+    font-weight: 400;
     line-height: 26px; 
 
 }
@@ -220,7 +220,7 @@ h5 {
     font-family: 'urw-din', sans-serif;
     color: white;
     font-size:9;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px; 
    /* position: absolute;
     padding-left: 93%;
@@ -231,6 +231,6 @@ h6 {
     font-family: 'urw-din', sans-serif;
     color: white;
     font-size:7;
-    font-weight: 300;
+    font-weight: 400;
 }
 
