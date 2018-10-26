@@ -1,0 +1,279 @@
+@import url("https://use.typekit.net/fsl6ssl.css");
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+
+a:link, a:visited {
+	color: #202020; 
+	text-decoration: none; 
+
+}
+
+a:hover, a:active {
+	color: #FFDC5F; 
+	text-decoration: none;
+/*    cursor:grab; */
+}
+
+a {
+    text-decoration: none;
+    color: #202020;
+  /*  cursor:url(media/point.png), auto;*/
+}
+
+#video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+html { 
+/*    cursor:url(media/point.png), auto;*/
+    overflow-x: hidden;
+}
+
+body {  
+    /*background-size: 20px 20px;
+    background-image: linear-gradient(to right, #F6F6F6 1px, transparent 1px), linear-gradient(to bottom, #F6F6F6 1px, transparent 1px);
+    */
+    background-color: white;
+    /*    FF3087*/
+    margin:0;
+    line-height: 1;
+}
+
+div.cal {
+    margin-top: 50%;
+    align-content: left;
+    font-family: 'urw-din', sans-serif;
+    color: #202020;
+    font-size:8;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.desc {
+  width: 90%;
+  font-family: 'urw-din', sans-serif;
+  color: black; /*#202020;*/
+  font-size:18;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#portrait {
+    position: absolute;
+    right:0;
+    width:100%
+}
+#wrapperin1 {
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 10%;
+    bottom: 15vh;
+}
+
+#wrapperout1 {
+    width: 100vw;
+    background-color: white;
+    height: 100vh;
+
+}
+
+#wrapperin {
+    margin-right: 20%;
+    margin-left: 20%;
+    display:inline-block;
+
+
+}
+
+#wrapperout {
+    width: 100vw;
+    background-color: white;
+    height: 100vh;
+
+}
+
+#wrapperin2 {
+    padding-left: .5%;
+    margin-right: 9%;
+    margin-left: 9%;
+    display:inline-block;
+
+
+}
+
+#calwrapperin {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-right: 20px;
+    padding-left: 28px;
+
+}
+
+#wrapperoutpink {
+    width: 100vw;
+    background-color: white;
+    /*    min-height: 100vh;*/
+}
+
+#wrapperoutblue {
+    width: 100vw;
+    background-color: white;
+    /* min-height: 100vh;*/
+}
+
+
+.img2 {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.img3 {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#fixed-menu {
+   position: absolute;
+   bottom: 0;
+   right: 500px;
+   /*   left: 100%;*/
+}
+
+.fixed-nav-line {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 9998;
+   width: 100%;
+   height: 10px;
+   background-color: #56C7D6;
+}
+
+/*br.container {
+line-height: 0%;
+}*/
+
+.container {
+  position: relative;
+  display: table-cell;
+  line-height: 0%;
+  position: relative;
+  width: 50%;
+  height: 50%;
+  }
+
+
+
+.galimg {
+  display: block;
+  width: 100%;
+  height: auto%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white/*FFDC5F*/;
+/*  margin-top:0px;*/
+ /* padding-right: 1%;
+  padding-left:1%;*/
+}
+
+.container:hover .overlay {
+  opacity: .5;
+}
+
+.overlay:hover .desc {
+  opacity: 1;
+}
+
+
+.line {
+   width: 100%;
+   height: 3px;
+   background-color: #c;
+}
+
+#TAlogo {
+  position: absolute;
+  padurw-ding-left: 4%;
+  padurw-ding-top: 37.5px;
+}
+
+h1 {
+    font-family: 'urw-din', sans-serif;
+    color: #202020;
+    font-size:24;
+    font-weight: 700;
+
+}
+
+h1.title { 
+    font-family: 'urw-din', sans-serif;
+    color: #202020;
+    font-size:40;
+    font-weight: 900;}
+
+    h2 {
+        font-family: 'urw-din', sans-serif;
+       color: #202020;
+        font-size:18;
+        font-weight: 400;
+        line-height: 26px; 
+
+    }
+
+    h3 {
+        font-family: 'urw-din', sans-serif;
+        color: #202020;
+        font-size:18;
+        font-weight: 400;
+        line-height: 26px; 
+
+    }
+
+    /*top bar*/
+
+    h4 {
+        font-family: 'urw-din', sans-serif;
+        color: #202020;
+        font-size:16;
+        font-weight: 700;
+        line-height: 16pt; 
+
+    }
+
+    h5 {
+        font-family: 'urw-din', sans-serif;
+        color: #202020;
+        font-size:11;
+        font-weight: 400;
+        line-height: 26px; 
+   /* position: absolute;
+    padurw-ding-left: 93%;
+    padurw-ding-top: 20px;*/
+}
+
+h6 {
+    font-family: 'urw-din', sans-serif;
+    color: #202020;
+    font-size:7;
+    font-weight: 400;
+}
+

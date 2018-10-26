@@ -1,0 +1,78 @@
+<html lang="en-US">
+<style>
+/*<link rel="stylesheet" href="https://use.typekit.net/fsl6ssl.css">*/
+html {
+  color: black;
+}
+
+</style>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../projectstyle.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Morphing Matter Lab</title>   
+
+</head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74339615-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  //smooth scroll to anchors 
+  $(document).ready(function(){
+    $("a").on('click', function(event) {
+
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 1000, function(){
+
+          window.location.hash = hash;
+        });
+      } 
+    });
+  });
+</script>
+
+<!-- yeah like i don't like tracking either but i want to know about traffic to my site. sorry, whoever is reading this!
+
+  actually while I'm here... watch closely for the removal of this canary: 🐦  -->
+  <body>
+    <div id="wrapperout">
+      <!--       <img id="portrait" src="wave2.svg"> -->
+      <div id="wrapperin">
+                  <h5><a href="../index.html"> [BACK]</a> </h5>
+        <h1 class="title" id="title">MORPHING MATTER</h1>
+   
+        <h3>
+          <a href="http://morphingmatter.cs.cmu.edu" target="_blank"> <strong>The Morphing Matter Lab</strong></a> at CMU's School of Computer Science, develops materials, tools, and applications of adaptive, dynamic and intelligent morphing matter from nano to macro scales. We turn fictional futures into the present. My current work is on MODIFIBER, a fully reversible thread actuator for tangible interaction.
+<br><br>
+
+          As a part of The Human Computer Interaction Institute, a large focus of this research is in enabling new venues for tacticle experiances. The applications of MODIFIBER thread actuators range from greeting cards to functional garments and cooking; in many areas where linear or rotational actuation was previosly challenging, thread actuators like MODIFIBER can create new tactile experiances. 
+
+          <br> <br>
+
+          Earlier this year, our team's work was featured in Lunar Gala, a fashion show at Carnegie Mellon Universtiy. The video below highlights our research applied in the context of functional fashionable garments.
+
+<br><br>
+          <style>.vimeo { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .vimeo iframe, .vimeo object, .vimeo embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='vimeo'><iframe src='https://player.vimeo.com/video/265117303' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+        
+        </a>
+        <br>
+        Check back December 2018 for further research updates
+        <br>
+      </div>
+
+    </div>
+  </body>
+  </html>
+
