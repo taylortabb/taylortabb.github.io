@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+
+a {color:#3D85C6;
+text-decoration:none;}
+a:visited {color:#3D85C6;}
+a:hover {color:#3D41C6;}
+a:hover {cursor:url(media/point6.png), auto;}
+
+html { 
+    cursor:url(media/point6.png), auto;
+}
+
+div.gallery {
+    margin: 15px;
+    float: left;
+    width: 25%;
+}
+
+div.gallery:hover {
+    border: 0px solid grey;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    margin-top:0px;
+
+}
+
+div.desc {
+    padding: 0px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size:16;
+    font-weight: 300;
+}
+
+body {
+    background-color: white;
+    width: 660px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #3D85C6;
+    margin-left: 40px;
+    font-size:33;
+    font-style:normal;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-left: 40px;
+    font-size:16;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-left: 40px;
+    font-size:16;
+    font-weight: 300;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-left: 40px;
+    font-size:12;
+    font-weight: 300;
+}
+
+
